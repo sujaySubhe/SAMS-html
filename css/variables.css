@@ -1,0 +1,40 @@
+:root {
+    --primary:#007bff;
+    --secondary:#6a6e92;
+    --success:#28a745;
+    --danger:#dc3545;
+    --warning:#ffc107;
+    --info:#17a2b8;
+    --light:#e2e2e2;
+    --dark:#343a40;
+    --muted:#f3f3f3;
+    --white:#ffffff;
+
+    --primary-hover:#3a49bf;
+    --secondary-hover:#4c5074;
+    --success-hover:#009d69;
+    --danger-hover:#c22d2d;
+    --warning-hover:#e19a04;
+    --info-hover:#3788cd;
+    --light-hover:#c4c4c4;
+    --dark-hover:#242328;
+    --white-hover:#c4c4c4;
+
+    --primary-alert:rgb(0 123 255 / 0.2);
+    --secondary-alert:rgb(106 110 146 / .2);
+    --success-alert:rgb(40 167 69 / .2);
+    --danger-alert:rgb(220 53 69 / .2);
+    --warning-alert:rgb(255 193 7 / .2);
+    --info-alert:rgb(23 162 184 / .2);
+    --light-alert:rgb(226 226 226 / .2);
+    --dark-alert:rgb(52 58 64 / .2);
+
+    --container:80rem;
+
+    --f12:0.75rem;
+    --f14:0.875rem;
+    --f16:1rem;
+    --f18:1.125rem;
+    --f20:1.25rem;
+    --f24:1.5rem;
+} 
