@@ -10,6 +10,15 @@
     margin: auto;
 }
 
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--dark)
+}
+
 .bg-primary {
     background:var(--primary) !important;
 }
@@ -137,6 +146,8 @@ button{
 } 
 
 /*-------------------  column setup end-----------------*/
+
+
 
 /*-------------------  font classes -----------------*/
 .font-weight-normal{
@@ -326,6 +337,44 @@ button{
     padding-bottom: 3rem !important;
 }
 
+.px-0{
+    padding: 0 !important;
+}
+.px-1{
+    padding: 0.25rem !important;
+}
+.px-2{
+    padding: 0.5rem !important;
+}
+.px-3{
+    padding: 1rem !important;
+}
+.px-4{
+    padding: 1.5rem !important;
+}
+.px-5{
+    padding: 3rem !important;
+}
+
+.py-0{
+    padding: 0 !important;
+}
+.py-1{
+    padding: 0.25rem !important;
+}
+.py-2{
+    padding: 0.5rem !important;
+}
+.py-3{
+    padding: 1rem !important;
+}
+.py-4{
+    padding: 1.5rem !important;
+}
+.py-5{
+    padding: 3rem !important;
+}
+
 .m-0{
     margin: 0 !important;
 }
@@ -419,6 +468,44 @@ button{
 }
 .mb-5{
     margin-bottom: 3rem !important;
+}
+
+.mx-0{
+    margin: 0 !important;
+}
+.mx-1{
+    margin: 0.25rem !important;
+}
+.mx-2{
+    margin: 0.5rem !important;
+}
+.mx-3{
+    margin: 1rem !important;
+}
+.mx-4{
+    margin: 1.5rem !important;
+}
+.mx-5{
+    margin: 3rem !important;
+}
+
+.my-0{
+    margin: 0 !important;
+}
+.my-1{
+    margin: 0.25rem !important;
+}
+.my-2{
+    margin: 0.5rem !important;
+}
+.my-3{
+    margin: 1rem !important;
+}
+.my-4{
+    margin: 1.5rem !important;
+}
+.my-5{
+    margin: 3rem !important;
 }
 /*------------------- spacing-classes end-----------------*/
 

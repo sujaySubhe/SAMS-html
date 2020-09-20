@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 @import "variables.css";
 @import "common.css";
+@import "left-navigation.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: var(--f16);
     color:var(--dark);
+}
+
+.body-container{
+    display: flex;
+    align-items: start;
+    
+}
+
+.body-container .container{
+    height: 100vh;
+    overflow: auto;
 }
