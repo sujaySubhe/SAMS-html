@@ -146,6 +146,21 @@ button{
 } 
 
 /*-------------------  column setup end-----------------*/
+.w-0{
+    width:0;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+    width:50%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
 
 
 
@@ -338,41 +353,53 @@ button{
 }
 
 .px-0{
-    padding: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .px-1{
-    padding: 0.25rem !important;
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
 }
 .px-2{
-    padding: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
 }
 .px-3{
-    padding: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 .px-4{
-    padding: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }
 .px-5{
-    padding: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
 }
 
 .py-0{
-    padding: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 .py-1{
-    padding: 0.25rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
 }
 .py-2{
-    padding: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
 .py-3{
-    padding: 1rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 .py-4{
-    padding: 1.5rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
 }
 .py-5{
-    padding: 3rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
 }
 
 .m-0{
@@ -471,41 +498,53 @@ button{
 }
 
 .mx-0{
-    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .mx-1{
-    margin: 0.25rem !important;
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
 }
 .mx-2{
-    margin: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
 }
 .mx-3{
-    margin: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
 }
 .mx-4{
-    margin: 1.5rem !important;
+    margin-left: 1.5rem !important;
+    margin-right: 1.5rem !important;
 }
 .mx-5{
-    margin: 3rem !important;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
 }
 
 .my-0{
-    margin: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 .my-1{
-    margin: 0.25rem !important;
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
 }
 .my-2{
-    margin: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
 .my-3{
-    margin: 1rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 .my-4{
-    margin: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
 }
 .my-5{
-    margin: 3rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 /*------------------- spacing-classes end-----------------*/
 
@@ -839,5 +878,164 @@ button{
     color:var(--primary);
 }
 /*------------------- breadcrum end-----------------*/
+
+/*------------------- form componenets-----------------*/
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.form-group .form-control{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--light-dark);
+    background-color:var(--white);
+    border: 1px solid var(--light);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group .form-control:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: var(--primary);
+    outline:0;
+}
+
+.form-group label{
+    display:inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-text{
+    font-size: var(--f14);
+    display: inline-block;
+    padding-top:.25rem;
+}
+
+.form-check{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 1.5rem;
+    padding-left: 1.8rem;
+}
+.form-check .form-check-input{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    left: 0;
+    width: 1rem;
+    height: 1rem;
+    top: .15rem;
+    cursor: pointer;
+}
+.form-check label{
+    margin-bottom: 0;
+}
+.form-check label::before {
+    position: absolute;
+    top: .15rem;
+    left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem;
+    width: .875rem;
+    height: .875rem;
+    pointer-events: none;
+    content: "";
+    background-color: var(--white);
+    border: #adb5bd solid 1px;
+    border-radius: .25rem;
+}
+.form-check-input:checked ~ label::before{
+    content: "\f00c";
+    color:var(--white);
+    font-family: FontAwesome;
+    border-color:var(--primary);
+    background: var(--primary);
+}
+.form-check-input:disabled ~ label{
+    color:var(--light);
+}
+.form-check-input:disabled ~ label::before{
+    border-color:var(--light);
+}
+.form-check.check-inline{
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+
+
+.form-text{
+    font-size: var(--f14);
+    display: inline-block;
+    padding-top:.25rem;
+}
+
+.form-radio{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 1.5rem;
+    padding-left: 1.8rem;
+}
+.form-radio .form-radio-input{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    left: 0;
+    width: 1rem;
+    height: 1rem;
+    top: .15rem;
+    cursor: pointer;
+}
+.form-radio label{
+    margin-bottom: 0;
+}
+.form-radio label::before {
+    position: absolute;
+    top: .15rem;
+    left: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem;
+    width: .875rem;
+    height: .875rem;
+    line-height: .875rem;
+    pointer-events: none;
+    content: "";
+    background-color: var(--white);
+    border: #adb5bd solid 1px;
+    border-radius: 50%;
+}
+.form-radio-input:checked ~ label::before{
+    content: "\f111";
+    color:var(--primary);
+    font-size: .8rem;
+    font-family: FontAwesome;
+    line-height: 1;
+    border-color:var(--primary);
+     
+}
+.form-radio-input:disabled ~ label{
+    color:var(--light);
+}
+.form-radio-input:disabled ~ label::before{
+    border-color:var(--light);
+}
+.form-radio.radio-inline{
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+/*------------------- form componenets end-----------------*/
 
 
