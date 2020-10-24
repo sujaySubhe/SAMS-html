@@ -2,8 +2,8 @@
     height: 100vh;
     overflow:auto;
     background: var(--white);
-    width:18.75rem;
-    min-width:18.75rem;
+    width:15rem;
+    min-width:15rem;
 }
 
 .left-navigation .logo{
