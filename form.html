@@ -144,16 +144,14 @@
                         <div class="form-title border-bottom px-4 py-2 bg-primary text-white">
                             <h4 class="py-1">Sample Form Title</h4>
                         </div>
-                        <div class="form-content px-3 py-4">
+                        <div class="row">
+                        <div class="form-content col-8 px-3 py-4">
                             <div class='form-group'>
                                 <label for="text-box" class="px-2">Enter Name</label>
                                 <div class="row">
-                                    <div class="col-6 pt-0">
+                                    <div class="col-12 pt-0">
                                         <input type="text" class="form-control w-100" id="text-box"
                                             placeholder="Enter name">
-                                    </div>
-                                    <div class="col-6 pt-0">
-                                        <span class="form-text text-info">Note: information come here</span>
                                     </div>
                                 </div>
                             </div>
@@ -161,11 +159,8 @@
                             <div class='form-group'>
                                 <label for="text-password" class="px-2">Enter Password</label>
                                 <div class="row">
-                                    <div class="col-6 pt-0">
+                                    <div class="col-12 pt-0">
                                         <input type="password" class="form-control w-100" id="text-password" placeholder="Enter password">
-                                    </div>
-                                    <div class="col-6 pt-0">
-                                        <span class="form-text text-danger">Error: information come here</span>
                                     </div>
                                 </div>
                             </div>
@@ -173,11 +168,8 @@
                             <div class='form-group'>
                                 <label for="text-email" class="px-2">Enter Email</label>
                                 <div class="row">
-                                    <div class="col-6 pt-0">
+                                    <div class="col-12 pt-0">
                                         <input type="email" class="form-control w-100" id="text-email" placeholder="Enter email">
-                                    </div>
-                                    <div class="col-6 pt-0">
-                                        <span class="form-text text-info">Note: information come here</span>
                                     </div>
                                 </div>
                             </div>
@@ -185,11 +177,8 @@
                             <div class='form-group'>
                                 <label for="textArea" class="px-2">Textarea</label>
                                 <div class="row">
-                                    <div class="col-6 pt-0">
+                                    <div class="col-12 pt-0">
                                         <textarea class="form-control w-100" id="textArea" rows="3"></textarea>
-                                    </div>
-                                    <div class="col-6 pt-0">
-                                        <span class="form-text text-danger">Error: information come here</span>
                                     </div>
                                 </div>
                             </div>
@@ -204,6 +193,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="help-text col-4">
+                            <h5 class="pt-4 pb-3">Help</h5>
+                            <div class="form-text text-info pb-1 f-12">You need to fill all fields</div>
+                            <div class="form-text text-danger pb-1 f-12">1. Name should not be empty</div>
+                            <div class="form-text text-danger pb-1 f-12">2. should not be empty</div>
+                            <div class="form-text text-danger pb-1 f-12">3. Enter valid email format</div>
+                        </div>
+                    </div>
                     </form>
                 </div>
             </div>

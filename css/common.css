@@ -179,22 +179,22 @@ button{
 }
 
 .f-12{
-    font-size: var(--f12);
+    font-size: var(--f12) !important;
 }
 .f-14{
-    font-size: var(--f14);
+    font-size: var(--f14) !important;
 }
 .f-16{
-    font-size: var(--f16);
+    font-size: var(--f16) !important;
 }
 .f-18{
-    font-size: var(--f18);
+    font-size: var(--f18) !important;
 }
 .f-20{
-    font-size: var(--f20);
+    font-size: var(--f20) !important;
 }
 .f-24{
-    font-size: var(--f24);
+    font-size: var(--f24) !important;
 }
 
 /*-------------------  font classes end-----------------*/
