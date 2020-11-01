@@ -179,22 +179,22 @@ button{
 }
 
 .f-12{
-    font-size: var(--f12);
+    font-size: var(--f12) !important;
 }
 .f-14{
-    font-size: var(--f14);
+    font-size: var(--f14) !important;
 }
 .f-16{
-    font-size: var(--f16);
+    font-size: var(--f16) !important;
 }
 .f-18{
-    font-size: var(--f18);
+    font-size: var(--f18) !important;
 }
 .f-20{
-    font-size: var(--f20);
+    font-size: var(--f20) !important;
 }
 .f-24{
-    font-size: var(--f24);
+    font-size: var(--f24) !important;
 }
 
 /*-------------------  font classes end-----------------*/
@@ -879,163 +879,6 @@ button{
 }
 /*------------------- breadcrum end-----------------*/
 
-/*------------------- form componenets-----------------*/
-
-.form-group{
-    margin-bottom: 1rem;
-}
-
-.form-group .form-control{
-    display: block;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--light-dark);
-    background-color:var(--white);
-    border: 1px solid var(--light);
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.form-group .form-control:focus{
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border-color: var(--primary);
-    outline:0;
-}
-
-.form-group label{
-    display:inline-block;
-    margin-bottom: .5rem;
-}
-
-.form-text{
-    font-size: var(--f14);
-    display: inline-block;
-    padding-top:.25rem;
-}
-
-.form-check{
-    display: flex;
-    align-items: center;
-    position: relative;
-    min-height: 1.5rem;
-    padding-left: 1.8rem;
-}
-.form-check .form-check-input{
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    left: 0;
-    width: 1rem;
-    height: 1rem;
-    top: .15rem;
-    cursor: pointer;
-}
-.form-check label{
-    margin-bottom: 0;
-}
-.form-check label::before {
-    position: absolute;
-    top: .15rem;
-    left: 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .1rem;
-    width: .875rem;
-    height: .875rem;
-    pointer-events: none;
-    content: "";
-    background-color: var(--white);
-    border: #adb5bd solid 1px;
-    border-radius: .25rem;
-}
-.form-check-input:checked ~ label::before{
-    content: "\f00c";
-    color:var(--white);
-    font-family: FontAwesome;
-    border-color:var(--primary);
-    background: var(--primary);
-}
-.form-check-input:disabled ~ label{
-    color:var(--light);
-}
-.form-check-input:disabled ~ label::before{
-    border-color:var(--light);
-}
-.form-check.check-inline{
-    display: inline-flex;
-    margin-right: 1rem;
-}
-
-
-
-.form-text{
-    font-size: var(--f14);
-    display: inline-block;
-    padding-top:.25rem;
-}
-
-.form-radio{
-    display: flex;
-    align-items: center;
-    position: relative;
-    min-height: 1.5rem;
-    padding-left: 1.8rem;
-}
-.form-radio .form-radio-input{
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    left: 0;
-    width: 1rem;
-    height: 1rem;
-    top: .15rem;
-    cursor: pointer;
-}
-.form-radio label{
-    margin-bottom: 0;
-}
-.form-radio label::before {
-    position: absolute;
-    top: .15rem;
-    left: 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .1rem;
-    width: .875rem;
-    height: .875rem;
-    line-height: .875rem;
-    pointer-events: none;
-    content: "";
-    background-color: var(--white);
-    border: #adb5bd solid 1px;
-    border-radius: 50%;
-}
-.form-radio-input:checked ~ label::before{
-    content: "\f111";
-    color:var(--primary);
-    font-size: .8rem;
-    font-family: FontAwesome;
-    line-height: 1;
-    border-color:var(--primary);
-     
-}
-.form-radio-input:disabled ~ label{
-    color:var(--light);
-}
-.form-radio-input:disabled ~ label::before{
-    border-color:var(--light);
-}
-.form-radio.radio-inline{
-    display: inline-flex;
-    margin-right: 1rem;
-}
-
-/*------------------- form componenets end-----------------*/
+ 
 
 
