@@ -10,6 +10,7 @@
     --muted:#f3f3f3;
     --white:#ffffff;
     --light-dark:#495057;
+    --heather:#B5B6B7;
 
     --primary-hover:#3a49bf;
     --secondary-hover:#4c5074;
@@ -20,6 +21,7 @@
     --light-hover:#c4c4c4;
     --dark-hover:#242328;
     --white-hover:#c4c4c4;
+
 
     --primary-alert:rgb(0 123 255 / 0.2);
     --secondary-alert:rgb(106 110 146 / .2);
